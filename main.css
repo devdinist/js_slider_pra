@@ -1,0 +1,22 @@
+div.wrapper{width:400px; height:400px; overflow: hidden;}
+
+div.content_box{height:400px;width:2000px;position: relative;}
+
+div.content1{float:left;font-size: 50px;font-weight:bold;display: flex;justify-content:center;align-items: center;height:400px; width:400px; background-color: tan;}
+div.content2{float:left;font-size: 50px;font-weight:bold;display: flex;justify-content:center;align-items: center;height:400px; width:400px; background-color: green;}
+div.content3{float:left;font-size: 50px;font-weight:bold;display: flex;justify-content:center;align-items: center;height:400px; width:400px; background-color: rosybrown;}
+div.content4{float:left;font-size: 50px;font-weight:bold;display: flex;justify-content:center;align-items: center;height:400px; width:400px; background-color: blue;}
+div.content5{float:left;font-size: 50px;font-weight:bold;display: flex;justify-content:center;align-items: center;height:400px; width:400px; background-color: slateblue;}
+
+.view{animation: fadeIn 0.5s linear;}
+
+div.btnside{display: flex; width:400px; justify-content: space-between;}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
